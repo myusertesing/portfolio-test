@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: portfolio
+    image: rothana01/portfolio:1.0
+    ports:
+      - 8080:80
